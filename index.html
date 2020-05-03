@@ -18,13 +18,91 @@
     />
     <link rel="stylesheet" href="sass/main.css" />
 
-    <title>Trabajo por Aldhair Vera</title>
+    <title>My Order Now - App</title>
   </head>
   <body>
-    <header>BBBBDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDBBBB</header>
-    <div>AAAAA_____________----________________AAAAA</div>
-    <main>CC CC CC CC CC------CC CC CC CC CC</main>
+    <header>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-auto">
+            <h1>MyOrderNow</h1>
+          </div>
+          <div class="col-auto">
+            <div
+              class="avatar-container"
+              data-target="#profileOptions"
+              data-toggle="modal"
+            >
+              <img src="img/avatar.jpg" alt="" />
+              <i class="fas fa-cog"></i>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div
+        class="modal fade"
+        id="profileOptions"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Opciones</h5>
+              <button
+                class="close"
+                type="button"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul class="profile-options-list">
+                <li>
+                  <a href="#">
+                    <i class="fas fa-user">Mi Perfil</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-map-marker-alt">Mis Direcciones</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-credit-card">Mis tarjetas</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-danger">
+                    <i class="fas fa-times-circle">Cerrar Sesión</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Scripts -->
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
